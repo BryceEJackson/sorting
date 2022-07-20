@@ -1,8 +1,9 @@
 /*
     Bucket Sorting Algorithm. 
 
-        Reads from a file in the same directory as the program, which is terminal parameter argv[1]. The file contains 
-        numbers of the format "%d ", where the first is the count of how many numbers are in the unsorted list. 
+        Reads from a file in the same directory as the program, which is read from std input parameter argv[1]. The file contains 
+        numbers of the format "%d ", where the first is the count of how many numbers are in the unsorted list, 
+        followed by the numbers in the unsorted list. 
 
 */
 #include <stdio.h>
